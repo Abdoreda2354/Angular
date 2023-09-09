@@ -1,0 +1,23 @@
+footer .footer1{
+    background-color: #2C3E50!important;
+    padding: 90px 40px;
+
+}
+
+footer .footer2{
+    background-color: #1A252F;
+    padding: 20px;
+}
+footer .icons{
+    gap: 10px;
+}
+footer .icons li{
+    
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

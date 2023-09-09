@@ -1,0 +1,25 @@
+<section class="d-flex flex-column align-items-center mt-4">
+    <h2>CONATCT SECTION</h2>
+    <div class="icon ">
+        <i class="fa-solid fa-star"></i>    
+    </div>
+
+    <div class=" form w-50 p-3 mx-auto mt-3 mb-3">
+        <label for="userName" class="position-relative labeltrue " [class]=" nameEmpty? 'labelfalse' :'labeltrue'" >UserName:</label>
+        <input  type="text" id="userName" class="form-control" placeholder="userName" (keyup)="nameF($event)">
+        <label for="userName" class="position-relative labeltrue " [class]=" ageEmpty? 'labelfalse' :'labeltrue'" >userAge:</label>
+        <input type="number" id="userName" class="form-control" placeholder="userAge" (keyup)="ageF($event)">
+
+
+        <label for="userName" class="position-relative labeltrue " [class]=" emailEmpty? 'labelfalse' :'labeltrue'" >userEmail:</label>
+        <input type="email" id="userName" class="form-control" placeholder="userEmail" (keyup)="emailF($event)">
+
+        <label for="userName" class="position-relative labeltrue " [class]=" passwordEmpty? 'labelfalse' :'labeltrue'" >userPassword:</label>
+        <input type="password" id="userName" class="form-control" placeholder="userPassword" (keyup)="passwordF($event)">
+        
+        <button class="btn text-white">send Message</button>
+    </div>
+    
+</section>
+
+

@@ -1,0 +1,49 @@
+section{
+    min-height: 80vh;
+    background-color: #1ABC9C;
+}
+
+section .col-md-6 p{
+width: 90%;
+}
+section h2{
+    font-size: 40px;
+}
+.icon{
+    position: relative;
+    margin-bottom: 20px;
+}
+.icon::after{
+    content: '';
+    width: 100px;
+    height: 4.5px;
+   position: absolute;
+    bottom: 8px;
+    left: 30px;  
+    background-color: #fff;
+}
+.icon::before{
+    content: '';
+    width: 100px;
+    height: 4.5px;
+   position: absolute;
+    bottom: 8px;
+    right: 30px;  
+    background-color: #fff;
+}
+
+@media (max-width:991.9808px) {
+    section h2{
+        font-size: 36px;
+    }
+}
+@media (max-width:767.9808px) {
+    section h2{
+        font-size: 33.5px;
+    }
+}
+@media (max-width:588.9808px) {
+    section h2{
+        font-size: 29.5px;
+    }
+}

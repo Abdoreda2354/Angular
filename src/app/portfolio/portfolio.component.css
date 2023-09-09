@@ -1,0 +1,65 @@
+section{
+    margin-top: 150px!important;
+    min-height: 80vh;
+    color: #2C3E50;
+}
+section h2{
+    font-size: 40px;
+}
+.row .img img , .layer{
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+}
+.layer{
+    background-color: #1ABC9C;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.layer:hover{
+    opacity: 85%;
+}
+.layer i{
+    font-size: 96px;
+}
+.icon{
+    position: relative;
+}
+.icon::after{
+    content: '';
+    width: 100px;
+    height: 4.5px;
+   position: absolute;
+    bottom: 8px;
+    left: 30px;  
+    background-color: #2C3E50;
+}
+.icon::before{
+    content: '';
+    width: 100px;
+    height: 4.5px;
+   position: absolute;
+    bottom: 8px;
+    right: 30px;  
+    background-color: #2C3E50;
+}
+@media (max-width:991.9808px) {
+    section h2{
+        font-size: 36px;
+    }
+}
+@media (max-width:767.9808px) {
+    section h2{
+        font-size: 33.5px;
+    }
+}
+@media (max-width:588.9808px) {
+    section h2{
+        font-size: 29.5px;
+    }
+}

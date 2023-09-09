@@ -1,0 +1,89 @@
+section{
+    margin-top: 150px!important;
+    min-height: 80vh;
+    color: #2C3E50;
+}
+section h2{
+    font-size: 40px;
+}
+
+.icon{
+    position: relative;
+}
+.icon::after{
+    content: '';
+    width: 100px;
+    height: 4.5px;
+   position: absolute;
+    bottom: 8px;
+    left: 30px;  
+    background-color: #2C3E50;
+}
+.icon::before{
+    content: '';
+    width: 100px;
+    height: 4.5px;
+   position: absolute;
+    bottom: 8px;
+    right: 30px;  
+    background-color: #2C3E50;
+}
+
+.form input{
+    margin-bottom: 50px;
+    border: 0!important;
+    border-bottom: 2px solid #00000016 !important;
+}
+.form  label{
+    top: 17px;
+    left: 10px;
+    color: #00000076;
+}
+.form input:focus{
+   
+    box-shadow: 0px 0px 0px 0px;
+}
+.form button{
+    background-color: #1ABC9C;
+}
+
+
+
+.labeltrue{
+    top: 0px!important;
+    color: #1ABC9C!important;
+    transition: .6s top;
+    z-index: -1;
+}
+.labelfalse{
+    top: 40px!important;
+    transition: .6s top;
+    z-index: -1;
+}
+
+
+
+
+label{
+    overflow: hidden;
+    transition: 0.4s;
+}
+@media (max-width:991.9808px) {
+    section h2{
+        font-size: 36px;
+    }
+}
+@media (max-width:767.9808px) {
+    section h2{
+        font-size: 33.5px;
+    }
+    .form{
+        width: 100%!important;
+    }
+}
+@media (max-width:588.9808px) {
+    section h2{
+        font-size: 29.5px;
+    }
+}
+
